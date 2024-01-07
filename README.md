@@ -10,7 +10,7 @@ Distorted           |  Corrected
 :-------------------------:|:-------------------------:
 ![Lidar distortion](img/top_distorted.png) | ![Lidar corrected](img/top_new.png)
 ![Lidar distortion](img/side_distorted.png) | ![Lidar corrected](img/side_new.png)
-![Lidar distortion](img/scan10_side_n2.eps2) | ![Lidar corrected](img/scan10_side2.eps2)
+![Lidar distortion](img/scan10_side_n2.png) | ![Lidar corrected](img/scan10_side2.png)
 
 The distortion error is increased with faster movement, meaning higher linear or angular velocity.
 Measurements from recent scanning positions exhibit less errors than the ones at the start of the scan.
@@ -27,10 +27,10 @@ This increases performance and accuracy of applications relying on the point clo
 
 This motion distortion correction is concerned with the motion distortion correction of a 3D Livox lidar (MID100) mounted on a spehrical robot. This results in predominantly angular motion distortion. It can however, be used for any type of LiDAR sensor.
 
-Further information can be found in [this paper](Inertial LiDAR Motion Distortion Correction on Spherical Mobile Mapping Systems for Planetary Exploration) [1]
+Further information can be found in [this paper](https://tobepublished.org) [1]
 More information about distortions due to predominantly linear velocity, can be found in [this paper](https://ieeexplore.ieee.org/document/9128372) [2].
 
-[1] to be published...
+[1] Heinisch, P., Arzberger, F., Nüchter, A., "Inertial LiDAR Motion Distortion Correction on Spherical Mobile Mapping Systems for Planetary Exploration", 2024
 [2] Renzler, T., Stolz, M., Schratter, M., and Watzenig, D. "Increased accuracy for fast moving LiDARS: Correction of distorted point clouds." 2020 IEEE International Instrumentation and Measurement Technology Conference (I2MTC). IEEE, 2020.
 
 ## ROS Node

@@ -31,6 +31,7 @@ Further information can be found in [this paper](https://tobepublished.org) [1]
 More information about distortions due to predominantly linear velocity, can be found in [this paper](https://ieeexplore.ieee.org/document/9128372) [2].
 
 [1] Heinisch, P., Arzberger, F., Nüchter, A., "Inertial LiDAR Motion Distortion Correction on Spherical Mobile Mapping Systems for Planetary Exploration", 2024
+
 [2] Renzler, T., Stolz, M., Schratter, M., and Watzenig, D. "Increased accuracy for fast moving LiDARS: Correction of distorted point clouds." 2020 IEEE International Instrumentation and Measurement Technology Conference (I2MTC). IEEE, 2020.
 
 ## ROS Node
